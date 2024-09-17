@@ -1,0 +1,58 @@
+.banner__pages{
+    background: url(../img/bg__pages.png) no-repeat top center / cover;
+    padding: 215px 276px 200px 0;
+}
+
+
+.banner__pages-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #565656;
+}
+
+
+.banner__pages-title{
+    font-size: clamp(1.563rem, 1.364rem + 0.99vw, 2.25rem);
+    font-weight: 700;  
+    padding-bottom: 20px; 
+}
+
+
+.banner__pages-text{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 140px;
+}
+
+
+.banner__btn{
+    display: flex;
+    gap: 20px;
+}
+.banner__btn a{
+    color: #565656;
+    transition: 0.3s;
+}
+.banner__btn a:hover{
+    color: #000000;
+}
+
+
+.banner__bttn{
+    padding: 9px 30px;
+    background: #8DD83D;
+    font-size: clamp(0.813rem, 0.758rem + 0.27vw, 1rem) ;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 660px) {
+    .banner__pages-wrap{
+        align-items: center;
+    }   
+    .banner__pages{
+        padding: 110px 0 90px 0;
+    }
+}
