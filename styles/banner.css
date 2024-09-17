@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    transition: 0.3s;
 }
 
 
@@ -22,24 +23,23 @@
 
 
 
-.banner__btn{
+.banner__buttom{
     display: flex;
-    gap: 13px;
-    font-size: clamp(0.75rem, 0.678rem + 0.36vw, 1rem);
-    font-weight: 600;
-    transition: 0.3s;
+    gap: 20px;
+
 }
 
-
-.banner__btnn{
-    padding: 11px 20px;
-    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-    border-radius: 10px;
+.banner__buttom a{
     color: #fff;
+    font-size: clamp(0.813rem, 0.744rem + 0.34vw, 1rem);
+    font-weight: 400;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    padding: 9px 24px;
+    border-radius: 10px;
 }
-
-.banner__btnn:hover{
-    background: #8DD83D; 
+.banner__buttom a:hover{
+    color: #000;
+    background: #8DD83D;
 }
 
 
